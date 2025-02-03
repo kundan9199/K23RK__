@@ -1,0 +1,43 @@
+div{
+    height: 2.5 cm;
+    width: 2.5 cm;
+    padding: 2 cm;
+    border: 2 cm dotted;
+    margin-left: auto;
+    align-content: baseline;
+    color:rgb(229, 25, 25);
+    /* text-align: justify; */
+}
+
+.box {
+    align-content:center;
+    width: 2.5cm;
+    height: 2.5cm;
+    padding: 2cm;
+    border: 5 cm solid #4CAF50 ;
+    border: outset;
+    border: double;
+
+    margin: 2cm;
+    background-color: #43b978;
+    border-radius: 20cm;
+}
+.grid-container{
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+    gap: 8px;
+
+}
+.grid-items{
+    border: 3cm solid;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 8px;
+    align-content: center;
+    background-color: rgb(0, 242, 255);
+    border: double;
+    border-radius: 0.3cm;
+
+}

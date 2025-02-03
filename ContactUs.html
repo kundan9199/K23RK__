@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+         *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            text-align: center;
+            font-family: 'Open Sans', sans-serif;
+            align-items: center;
+            justify-content: center;
+            display: ;
+            }
+            div{
+                align-items: center;
+            }
+          #conatiner{
+            display:grid;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+            border: 2px solid black;
+            height: 11cm;
+            width: 11cm;
+            display: grid;
+            grid-template-columns: 50px 50px 50px;
+            grid-template-rows: 50px 50px 50px;
+            }
+            p{
+                font-size: 1rem;
+
+            }
+            button{
+                background-color: #4CAF50;
+                color: white;
+                border: 2px;
+                padding: 5px;
+                cursor: pointer;
+            }
+            .text{
+                border-radius: 0.5px;
+            }
+            .name{
+                font-weight: bold;
+                color: #333;
+                margin-bottom: 10px;
+            }
+            .email{
+                font-size: 14px;
+                color: #666;
+                margin-bottom: 10px;
+                margin-top: 10px;
+                }
+                    .title {
+                        font-size: 18px;
+                        font-weight: bold;
+                        margin-bottom: 10px;
+                        color: #333;
+                        }
+    
+
+    </style>
+    </style>
+</head>
+<body>
+    <div class="conatainer">
+        <h1>Contact Us</h1>
+        <p> Full name :</p>
+        <input type="text" id="name">
+        <p>Email Address :</p>
+        <input type="email" id="email">
+        <br>
+        <p>Message :</p>
+        <input type="text" id="text">
+
+        <br>
+        <br>
+        <button id="submit">SUBMIT</button>
+    </div>
+    
+</body>
+</html>
